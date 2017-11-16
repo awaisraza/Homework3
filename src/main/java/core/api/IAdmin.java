@@ -23,7 +23,7 @@ public interface IAdmin {
      * @param year Year in which this class is taught
      * @param capacity New capacity of this class, must be at least equal to the number of students enrolled
      */
-    void changeCapacity(String className, int year, int capacity);
+    void changeCapacity(String className, int year, int capacity); 
 
 
     // Getters for testing purposes
